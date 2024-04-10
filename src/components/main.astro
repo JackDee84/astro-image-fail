@@ -1,0 +1,76 @@
+---
+import '../styles/main.css'
+
+
+import { Image } from 'astro:assets';
+
+import Product1 from '../assets/image-product-1.jpg';
+import Product2 from '../assets/image-product-2.jpg';
+import Product3 from '../assets/image-product-3.jpg';
+import Product4 from '../assets/image-product-4.jpg';
+
+---
+
+
+
+
+
+<main class="mainContainer">
+  
+
+    <!-- ImageBoxen -->
+    <div class="gallery">
+      <Image class="imageBig" src={Product1} alt=''>
+
+      <div class="gallerySmallImage">
+        
+        <Image class="imageSmall" src={Product1} alt=''>
+        <Image class="imageSmall" src={Product2} alt=''>
+        <Image class="imageSmall" src={Product3} alt=''>
+        <Image class="imageSmall" src={Product4} alt=''>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <div>
+      <h3>SNEAKER COMPANY</h3>
+      <h1>Fall Limeted Edited Sneakers</h1>
+      <p>
+        These low-profile sneakers are your perfect casual 
+        wear companion. Featuring a durable rubber outer sale, 
+        they ill withstand everything the weather can offer.
+      </p>
+      <div>
+        <div>
+          <p>$125.00</p>
+          <p>$250.00</p>
+        </div>
+        <p>50%</p>
+      </div>
+
+      <!-- + - btn und buyBtn -->
+      <div>
+
+      </div>
+
+
+    </div>
+
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

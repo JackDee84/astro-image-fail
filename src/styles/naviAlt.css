@@ -1,0 +1,162 @@
+
+
+.navi{
+	height: 8rem;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	border-bottom: 1px solid rgb(211, 208, 208);
+	color: rgb(123, 123, 123);
+}
+
+.navContainer{
+	align-content: center;
+}
+
+
+.headerText{
+	font-size: 1.4rem;
+	font-weight: bolder;
+	color: rgb(0, 0, 0);
+	margin-right: 3rem;
+	min-height: 3rem;
+  display: table-cell;
+  vertical-align: middle
+	
+}
+.row{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	
+	gap: 1.3rem;
+}
+.cardImage{
+	cursor: pointer;
+	-webkit-transition: all 0.2s linear;
+  display: none ;
+}
+.cardImage:hover{
+		transform: scale(1.2);
+	}
+
+
+.cardAvatar{
+	width: 100%;
+  max-width: 60px;
+  height: auto;
+	margin-left: 2rem;
+	cursor: pointer;
+	-webkit-transition: all 0.3s linear;
+}
+.marginAvatar:hover{
+		transform: scale(1.2);
+	}
+.menu{
+	display: block;
+	
+}
+
+
+.overlay {
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.719); /* Hintergrundfarbe mit Transparenz */
+  display: none; 
+}
+
+
+
+@media screen and (max-width: 800px){
+	/*ul */
+
+  
+	.mediaUl{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		height: 100%;
+		width: 30%;
+		min-width: 10rem;
+		background-color: rgb(245, 246, 245);
+		position: absolute;
+		left: 0;
+		top: 0;
+		padding-left: 1rem;
+		padding-top: 1rem;
+		z-index: 100;
+
+		
+		
+	}
+
+.menuOff{
+    display: none;
+}
+.menuOn{
+  display: block;
+}
+
+	.navContainer{
+		height: 100%;
+		width: 30%;
+		margin-top: 5rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+
+	.menuContainer{
+		width: 3rem;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		
+	}
+
+  .cloesdBtn{
+    display: block ;
+  }
+  
+
+
+	.menu{
+		min-width: 1.5rem;
+		height: 1.5rem;
+		display: block;
+		cursor: pointer;
+		-webkit-transition: all 0.3s linear;
+		margin-right: 2rem;
+	}
+	.menu:hover{
+		transform: scale(1.2);
+		
+	}
+.headerText{
+	font-size: 1.8rem;
+	
+}
+
+
+
+	/* Avatar */
+
+	.marginAvatar{
+		margin-left: 0.5rem;
+		width: 100%;
+		height: auto;
+		max-width: 40px;
+		margin-right: 20px;
+		
+	}
+	
+}
+
+
+

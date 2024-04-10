@@ -1,0 +1,50 @@
+---
+
+import { Image } from 'astro:assets';
+import cardImage from '../assets/icon-cart.svg';
+import cardAvatar from '../assets/image-avatar.png';
+import menu from '../assets/icon-menu.svg';
+import closed from '../assets/icon-close.svg';
+
+import '../styles/nav.css'
+---
+
+<div class="navBigContainer" >
+
+
+	<nav class="navi ">
+
+		<div class="menuUlContainer">
+			<!-- 1.Menu-Icon Container -->
+			<div class="menuContainer">
+				<Image class="menuIcon menuOn hovern" src={menu} alt=""/>
+				<h1 class="headerText">sneakers</h1>
+			</div>
+
+	<!-- 2.ul Container -->
+			<ul class=" navUl navUlOn ">
+				<Image class=" cloesdIcon menuOff hovern" src={closed} alt=""/>
+				<li><a href="" class="fontHovern fontCenter">Collections</a></li>
+				<li><a href="" class="fontHovern fontCenter">Men</a></li>
+				<li><a href="" class="fontHovern fontCenter">Woman</a></li>
+				<li><a href="" class="fontHovern fontCenter">About</a></li>
+				<li><a href="" class="fontHovern fontCenter">Contact</a></li>
+			</ul>
+		</div>
+
+		
+
+	
+
+		<!-- 3.Avatar Container -->
+		<div class=" avatarContainer">
+			<Image class="buyIcon hovern" src={cardImage} alt=""/>
+			<Image  class="avatarIcon hovern" src={cardAvatar} alt="" />
+		</div>
+
+		
+	</nav>
+	<div class="overlay"></div>
+</div>
+
+

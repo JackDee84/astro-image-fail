@@ -1,0 +1,61 @@
+
+
+
+.mainContainer{
+  
+  width: 70%;
+  height: 100%;
+
+  margin-left: auto;
+  margin-right: auto;
+
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+
+  margin-top: 4rem;
+}
+
+
+/*ImageBoxen*/
+.gallery{
+  width: 100%;
+  height:30rem;
+  background: red;
+
+  
+
+
+}
+.imageBig{
+  width: 50%;
+} 
+
+.gallerySmallImage{
+  width: 100%;
+  height: 100%;
+  background: red;
+}
+
+
+.imageSmall{
+  width: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
